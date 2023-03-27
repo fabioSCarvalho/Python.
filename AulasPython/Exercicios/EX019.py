@@ -15,4 +15,3 @@ sorteado = choice(lista)
 
 print('O alunno escolhido foi {}'.format(sorteado))
 
-fabio
