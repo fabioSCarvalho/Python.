@@ -5,11 +5,13 @@
 from random import randint
 sorteado = randint(0,5)
 
+print('-=-' * 10)
 print('sorteando...')
+print('-=-' * 10)
 
 n = int(input('Tente adivinhar o numero sorteado entre 0 e 5 :'))
 
 if n == sorteado:
     print('Você ganhou')
 else:
-    print('Você perdeu')
+    print('Você perdeu! O numero sorteado foi {}'.format(sorteado))
