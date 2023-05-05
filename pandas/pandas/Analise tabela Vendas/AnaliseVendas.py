@@ -7,7 +7,7 @@ import pandas as pd
 tabela = pd.read_excel('Vendas.xlsx')
 
 displayhook(tabela)
-
+'''
 #pegar um panorama geral da empresa
 print()
 print('-=' * 10)
@@ -26,7 +26,9 @@ print(faturamento_por_loja)
 
 #entrar no detalhe para entender
 faturamento_por_produto = tabela [['ID Loja','Produto','Valor Final']].groupby(['ID Loja','Produto']).sum()
-print(faturamento_por_produto)
+print(faturamento_por_produto)'''
 
+id_loja = tabela[['ID Loja']]
+print(id_loja)
 
 # Analisando o resultado, percebesse que em uma das lojas tem um produto que as outras não tem
