@@ -1,3 +1,5 @@
+# leia o ano de nascimento e diga sua classificação
+
 from datetime import date
 atual = date.today().year
 nascimento = int(input('Ano de nascimento: '))

@@ -11,10 +11,10 @@
 #multa o valor da multa que João deverá pagar.
 # Imprima os dados do programa com as mensagens adequadas.              .
 
-kilo_peixe = float(input ('Informe o peso do peixe: kg'))
+kilo_peixe = float(input('Informe o peso do peixe: kg'))
 
 if kilo_peixe > 50.00:
     multa = (kilo_peixe - 50.00) * 4.00
     print('Você ultrapassou o limite do regulamento. Multa de R${:.2f}'.format(multa))
 else:
-    print('Peso abaixo do limite. Tenha um dia')
+    print('Peso abaixo do limite. Tenha um bom dia')

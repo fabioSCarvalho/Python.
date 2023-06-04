@@ -1,3 +1,5 @@
+#programa que leia o ano de nascimento e diga se deve se alistar
+
 from datetime import date
 
 nasc = int(input('Ano de nascimento: '))
