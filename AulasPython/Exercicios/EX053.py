@@ -16,7 +16,7 @@ print(inverso)
 print(palavraJunta)
 
 if inverso == palavraJunta:
-    print('TEmos um palindromo')
+    print('Temos um palindromo')
 else:
     print("A frase não é um palindromo")
 
