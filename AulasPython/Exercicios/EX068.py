@@ -10,6 +10,9 @@ while True:
     soma = n + pc
     print(f' Você escolheu {opc} e jogou {n} \n o computador jogou {pc}')
     print(f'A soma foi {soma}')
+
+    print('-='*30)
+
     if opc in 'Pp':
         if soma % 2 == 0:
             print('deu par, Você ganhou \n')
@@ -18,7 +21,7 @@ while True:
             print('deu impar, você perdeu \n')
             break
 
-    elif opc == 'Ii':
+    elif opc in 'Ii':
         if soma % 2 == 0:
             print(f' deu par, Você perdeu \n')
             break
