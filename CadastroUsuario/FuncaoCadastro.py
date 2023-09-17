@@ -9,7 +9,7 @@ def chamaMenu():
         [3] Listar usuarios
         [4] Deletar usuarios
         [5] Pesquisar usuario
-        [6] Exporar arquivo
+        [6] Exportar arquivo
         [7] Exit
     '''))
 
@@ -34,3 +34,21 @@ def Cadastrar(dicionario):
             print(email)
             dicionario[(email)]=[input("Nome: "), input("Setor: "), input("Cracha: ")]
     return dicionario
+
+def importarjson():
+    print()
+
+def Listar():
+    print()
+
+def Deletar():
+    print()
+
+def Pesquisar():
+    print()
+
+def exportarJson():
+    print()
+
+def sair():
+    print()
