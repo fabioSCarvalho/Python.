@@ -79,11 +79,8 @@ while True:
     if resp == 5:
 
         with open("usuarios.txt", "a") as arquivo:
-
             for usuario, dados in usuarios.items():
-
                arquivo.write(f"{usuarios} ; {dados}  \n") 
-
 
     if resp == 6:
 
